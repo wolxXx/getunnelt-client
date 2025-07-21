@@ -1,9 +1,9 @@
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 
 plugins {
-    kotlin("jvm") version "1.9.21"
-    id("org.jetbrains.compose") version "1.5.11"
-    kotlin("plugin.serialization") version "1.9.21"
+    kotlin("jvm") version "1.9.22"
+    id("org.jetbrains.compose") version "1.6.0"
+    kotlin("plugin.serialization") version "1.9.22"
     //application
 }
 
@@ -14,7 +14,7 @@ repositories {
 
 dependencies {
     implementation(compose.desktop.currentOs)
-    implementation("org.java-websocket:Java-WebSocket:1.5.3") // falls du WS nativ machen willst
+    implementation("org.java-websocket:Java-WebSocket:1.5.6") // falls du WS nativ machen willst
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")
 
 }
